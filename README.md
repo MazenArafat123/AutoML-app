@@ -68,48 +68,7 @@ no code required.
 
 ---
 
-## 🚀 Getting Started
 
-### 1. Clone the repository
-```bash
-git clone <your-repo-url>
-cd <your-repo-folder>
-```
-
-### 2. Create and activate a virtual environment
-```bash
-python -m venv venv
-
-# macOS/Linux
-source venv/bin/activate
-
-# Windows
-venv\Scripts\activate
-```
-
-### 3. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-> **Note:** PyCaret is pinned to `3.4.0` (the classic functional-API line). Don't
-> upgrade it independently — a newer major version may use an incompatible API.
-
-### 4. Run the app
-```bash
-streamlit run app.py
-```
-
-Streamlit will open the app in your browser (default: `http://localhost:8501`).
-
-### 5. Use the app
-1. On the **Home** page, upload a CSV or Excel file and select a target column in the sidebar.
-2. Use the sidebar page list to navigate:
-   - **Tabular flow:** `Tabular EDA` → `Dashboard` → `Model Preprocessing` → `Tabular AutoML`
-   - **NLP flow:** `NLP Overview` → `NLP AutoML`
-3. Download the preprocessed dataset and/or the best trained model directly from the relevant page.
-
----
 
 ## 🛠️ Tech Stack
 
@@ -119,8 +78,4 @@ Streamlit will open the app in your browser (default: `http://localhost:8501`).
 - **Machine learning / AutoML:** scikit-learn, PyCaret
 - **NLP:** NLTK, emoji, contractions
 
----
 
-## 📄 License
-
-Add your preferred license here (e.g. MIT, Apache 2.0).
