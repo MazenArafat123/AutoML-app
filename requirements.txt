@@ -1,0 +1,12 @@
+streamlit==1.49.1
+pandas==2.1.4
+numpy==1.26.4
+scipy==1.11.4
+scikit-learn==1.4.2
+matplotlib==3.7.5
+seaborn==0.13.2
+wordcloud==1.9.4
+pycaret==3.3.2
+nltk==3.9.1
+emoji==2.14.1
+contractions==0.1.73
